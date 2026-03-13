@@ -1,3 +1,6 @@
+import os
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+
 import gradio as gr
 import cv2
 import mediapipe as mp
@@ -59,3 +62,4 @@ iface = gr.Interface(
 
 
 iface.launch(server_name="0.0.0.0", server_port=10000)
+
