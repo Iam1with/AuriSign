@@ -1,6 +1,6 @@
 gradio
-tensorflow==2.15.0
 mediapipe
-opencv-python-headless
+opencv-python
+tensorflow
+keras
 numpy
-gtts
