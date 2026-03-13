@@ -52,14 +52,13 @@ def predict_sign(frame):
 
     return "No hand detected", None
 
-
 iface = gr.Interface(
     fn=predict_sign,
-    inputs=gr.Image(type="numpy"),
+    inputs=gr.Image(source="webcam", type="numpy"),
     outputs=[gr.Text(), gr.Audio()],
     live=True,
 )
 
-
 iface.launch(server_name="0.0.0.0", server_port=10000)
+
 
