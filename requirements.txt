@@ -1,6 +1,6 @@
 gradio
-opencv-python
-mediapipe
 tensorflow
+mediapipe
+opencv-python-headless
 numpy
 gtts
