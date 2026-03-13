@@ -4,3 +4,4 @@ mediapipe
 opencv-python-headless
 numpy
 gtts
+python-3.10.13
